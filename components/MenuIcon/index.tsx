@@ -2,7 +2,7 @@
 import { useRef } from "react";
 import styles from "./index.module.scss";
 
-export default function NumberGradient() {
+export default function Index() {
   const menuIcon = useRef<HTMLDivElement>(null);
   // handleClick 给当前元素动态增加 active
   const handleClick = () => {

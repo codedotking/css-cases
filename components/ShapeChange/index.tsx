@@ -1,6 +1,6 @@
 import styles from "./index.module.scss";
 
-export default function NumberGradient() {
+export default function Index() {
   return (
     <div className={styles.frame}>
       <div className="blobb"></div>

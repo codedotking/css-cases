@@ -8,7 +8,7 @@ export default function Home() {
         {componentNames.map((name, index) => {
           const Component = components[name];
           return (
-            <Link href={`/case/${name}`} key={index}>
+            <Link href={`/case/${name}`} key={index} style={{ zoom: 0.5 }}>
               <Component />
             </Link>
           );
