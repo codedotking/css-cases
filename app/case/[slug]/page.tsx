@@ -13,10 +13,8 @@ export async function generateMetadata({
 export default function Case({ params }: { params: { slug: string } }) {
   const Componenet = components[params.slug];
   return (
-    <div className="flex justify-center items-center min-h-screen">
-      <div style={{ zoom: 1.5 }}>
+    <div className="flex justify-center items-center min-h-screen w-full scale-50 md:scale-100">
         <Componenet />
-      </div>
     </div>
   );
 }

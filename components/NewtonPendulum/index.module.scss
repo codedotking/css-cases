@@ -55,15 +55,14 @@
     }
 
     .ball-1 {
-      & :local{
+      & :local {
         animation: ball-1 0.8s ease-out infinite alternate;
       }
-      
     }
-    
+
     .ball-5 {
-      & :local{
-      animation: ball-5 0.8s ease-out .8s infinite alternate;
+      & :local {
+        animation: ball-5 0.8s ease-out 0.8s infinite alternate;
       }
     }
 
