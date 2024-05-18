@@ -10,7 +10,7 @@ import TwilightWaves from "@/components/TwilightWaves";
 import Parasol3D from "@/components/Parasol3D";
 import DroppedBall from "@/components/DroppedBall";
 import NewtonPendulum from "@/components/NewtonPendulum";
-
+import Cube from "@/components/Cube";
 const components: {
   [key: string]: any; // 定义一个字符串索引签名，表示可以动态添加组件
 } = {
@@ -26,6 +26,7 @@ const components: {
   "parasol-3d": Parasol3D,
   "dropped-ball": DroppedBall,
   "newton-pendulum": NewtonPendulum,
+  "cube": Cube,
 };
 
 const componentNames = Object.keys(components).map((name) => {
